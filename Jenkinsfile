@@ -31,4 +31,9 @@ make install
       }
     }
   }
+post { 
+    always { 
+      cleanWs()
+     }
+  }
 }
